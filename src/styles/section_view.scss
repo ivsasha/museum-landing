@@ -1,4 +1,4 @@
-$timeOfAnimation: 300ms;
+$time-of-animation: 300ms;
 
 .container {
   display: flex;
@@ -58,7 +58,7 @@ $timeOfAnimation: 300ms;
   }
 
   &__image {
-    transition: all $timeOfAnimation;
+    transition: all $time-of-animation;
 
     &:hover {
       transform: scale(1.01);
@@ -76,7 +76,7 @@ $timeOfAnimation: 300ms;
   }
 
   &__image-three {
-    transition: all $timeOfAnimation;
+    transition: all $time-of-animation;
 
     &:hover {
       transform: scale(1.01);
@@ -239,7 +239,7 @@ $timeOfAnimation: 300ms;
     border: 0;
     background-color: rgba(209, 45, 53, 1);
 
-    transition: all $timeOfAnimation;
+    transition: all $time-of-animation;
 
     &:hover {
       background-color: rgba(174, 28, 35, 1);

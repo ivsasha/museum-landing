@@ -1,4 +1,4 @@
-$timeOfAnimation: 300ms;
+$time-of-animation: 300ms;
 
 .page {
   font-family: Cinzel, serif;
@@ -21,7 +21,7 @@ $timeOfAnimation: 300ms;
   top: 0;
   left: 0;
   right: 0;
-  transition: all $timeOfAnimation;
+  transition: all $time-of-animation;
   transform: translate(-100%);
 
   &:target {

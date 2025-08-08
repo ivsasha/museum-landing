@@ -1,10 +1,10 @@
-$timeOfAnimation: 300ms;
+$time-of-animation: 300ms;
 
 .icon {
   display: block;
   width: 24px;
   height: 24px;
-  transition: all $timeOfAnimation;
+  transition: all $time-of-animation;
 
   &:hover {
     transform: scale(1.2);

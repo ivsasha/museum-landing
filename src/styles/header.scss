@@ -1,4 +1,4 @@
-$timeOfAnimation: 300ms;
+$time-of-animation: 300ms;
 
 .header {
   box-sizing: border-box;
@@ -28,7 +28,7 @@ $timeOfAnimation: 300ms;
   &__logo {
     width: 64px;
     height: 46px;
-    transition: all $timeOfAnimation;
+    transition: all $time-of-animation;
 
     &:hover {
       transform: scale(1.2);

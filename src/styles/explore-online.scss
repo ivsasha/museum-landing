@@ -1,4 +1,4 @@
-$timeOfAnimation: 300ms;
+$time-of-animation: 300ms;
 
 .explore-online {
   margin-top: 100px;
@@ -73,7 +73,7 @@ $timeOfAnimation: 300ms;
     width: 280px;
     height: 277px;
 
-    transition: all $timeOfAnimation;
+    transition: all $time-of-animation;
 
     &:hover {
       transform: scale(1.1);
