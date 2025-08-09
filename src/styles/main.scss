@@ -8,3 +8,11 @@
 @import './contact-us';
 @import './footer';
 @import './explore-online';
+
+html {
+  scroll-behavior: smooth;
+}
+
+a, button {
+  outline: none;
+}

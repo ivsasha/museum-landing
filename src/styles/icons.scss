@@ -16,27 +16,23 @@ $time-of-animation: 300ms;
   }
 
   &--phone {
-    background-image: url('../images/icon/icon-phone-call.png');
+    background-image: url("../images/icon/icon-phone-call.png");
     background-position: center;
-
-    // &:hover + .menu__contacts--header {
-    //   display: block;
-    // }
   }
 
   &--menu {
-    background-image: url('../images/icon/icon-burger-menu.png');
+    background-image: url("../images/icon/icon-burger-menu.png");
     background-position: center;
     background-repeat: no-repeat;
 
     &:hover {
-      background-image: url('../images/icon/icon-burger-menu-clicked.png');
+      background-image: url("../images/icon/icon-burger-menu-clicked.png");
       background-repeat: no-repeat;
     }
   }
 
   &--close {
-    background-image: url('../images/icon/icon-close.png');
+    background-image: url("../images/icon/icon-close.png");
     background-position: center;
   }
 }
@@ -54,10 +50,10 @@ $time-of-animation: 300ms;
 @include on-desktop {
   .header__icons {
     position: relative;
-  }
 
-  .icon--phone:hover + .menu__contacts {
-    opacity: 1;
-    align-items: end;
+    > div:hover .menu__contacts--header {
+      opacity: 1;
+      align-items: end;
+    }
   }
 }
